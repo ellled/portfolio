@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Stoke|PT+Sans|Climate+Crisis|Goudy+Bookletter+1911);
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+@import url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css');
+
+.title {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: #0047ff;
+  display: flex;
+  align-items: center;
+  /* padding-top: 50px; */
+}
+
+.a11y-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+.title h1 {
+  /* border: 1px solid red; */
+  margin-left: 10vw;
+  display: block;
+  /* padding-top: 50px; */
+  /* width: 100%; */
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.title h1 span {
+  font-size: 7vw;
+  margin-top: -20px;
+}
+
+.block {
+  display: block;
+}
+
+.blank {
+  margin-left: 15px;
+}
+
+.font1 {
+  font-family: 'Oswald';
+}
+
+.font2 {
+  font-family: 'Stoke';
+  font-weight: 400;
+}
+
+.font3 {
+  font-family: 'PT Sans';
+}
+
+.font4 {
+  font-family: 'Climate Crisis';
+}
+
+.font5 {
+  font-family: 'Goudy Bookletter 1911';
+}
+
+.font6 {
+  font-family: 'galmuri9';
+}
+
+.section02,
+.section03,
+.section04 {
+  /* position: absolute; */
+  width: 100%;
+  height: 100vh;
+}
+
+.section02 {
+  background-color: #0047ff;
+  /* padding-left: 50px; */
+  padding-top: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  font-size: 7vw;
+  font-family: 'Climate Crisis';
+  color: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right, #000000, #000000) no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 0%;
+  transition: cubic-bezier(0.1, 0.5, 0.5, 1) 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  text-indent: 1em;
+}
+
+.text span {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background-color: #ffffff;
+  color: #0d0d0d;
+
+  clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
+  transform-origin: center;
+  transition: all cubic-bezier(0.1, 0.5, 0.5, 1) 0.4s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text:hover > span {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+/* 유데미 목업 */
+
+.section03 {
+  background-color: #a435f0;
+  display: flex;
+}
+
+.mockup_wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.circle {
+  background-color: white;
+  width: 27vw;
+  height: 27vw;
+  border-radius: 50%;
+  position: relative;
+}
+
+.udemy_mockup,
+.udemy_logo {
+  transition: all 0.3s;
+  position: absolute;
+}
+
+.udemy_mockup {
+  top: 10%;
+  left: -5%;
+  width: 28vw;
+  z-index: 1;
+}
+
+.udemy_logo {
+  right: 0;
+  width: 15vw;
+}
+
+.mockup_text {
+  width: 50%;
+  height: 100vh;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mockup_text h1 {
+  font-family: 'Climate Crisis';
+  color: white;
+  font-size: 5vw;
+}
+
+.mockup_text span {
+  font-family: 'NanumSquareNeo';
+  font-size: 1.2vw;
+}
+
+.mockup_text > span:nth-child(2) {
+  color: #aeaeae;
+  line-height: 1.2em;
+}
+
+.mockup_text > span:nth-child(3) {
+  color: white;
+  margin-top: 20px;
+}
+
+.mockup_text a {
+  width: fit-content;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin-top: 70px;
+}
+
+.mockup_text img {
+  width: 2.5vw;
+}
+
+.section04 {
+  background-color: black;
+  display: flex;
+}
+
+.dm_mockup,
+.dm_logo {
+  transition: all 0.3s;
+  position: absolute;
+}
+
+.dm_mockup {
+  top: -10%;
+  left: -5%;
+  width: 30vw;
+  z-index: 1;
+  transform: rotate(15deg);
+}
+
+.dm_logo {
+  left: 0;
+  bottom: 10%;
+  width: 17vw;
+}
+
+.mockup_text div:last-child a {
+  margin-top: 30px;
+}

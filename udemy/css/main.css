@@ -1,0 +1,1545 @@
+@import url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css');
+/* 유데미 비즈니스 스와이퍼 가리기 */
+@media (min-width: 769px) {
+  .mobile_container {
+    display: none !important;
+  }
+}
+
+/* pc */
+
+* {
+  font-family: 'NanumSquareNeo';
+}
+
+.mobile_container {
+  display: none;
+}
+
+.countdown {
+  width: 100%;
+  height: 2.2em;
+  background-color: #a435f0;
+  text-align: center;
+  color: white;
+  line-height: 2.2em;
+  font-size: 17px;
+}
+
+.countdown span:first-child {
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* 헤더 */
+
+header {
+  display: flex;
+  width: 100%;
+}
+
+nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pc_header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1em;
+  white-space: nowrap;
+  align-items: center;
+  position: relative;
+  height: 4em;
+}
+
+header.shrink {
+  width: 100%;
+  margin-top: -2.4em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  background-color: white;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.145);
+}
+
+.header_left {
+  display: flex;
+  width: 500px;
+  height: 100%;
+}
+
+.header_right {
+  width: 250px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  width: 20%;
+  display: block;
+  position: relative;
+}
+
+header.shrink h1 {
+  width: 10%;
+  position: static;
+}
+
+h1 a {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+header.shrink h1 a {
+  position: static;
+  transform: translateY(-20%);
+}
+
+h1 a svg.default {
+  width: 70%;
+  min-width: 70px;
+}
+
+h1 a svg.shrink {
+  width: 20%;
+  min-width: 30px;
+  height: 25px;
+}
+
+.menu_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+}
+
+.category {
+  width: 22%;
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+}
+
+.category_title {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.category i {
+  width: 100%;
+  display: flex;
+}
+
+.category i svg {
+  width: 30px;
+}
+
+.category > ul {
+  position: absolute;
+  top: 4rem;
+  width: 15%;
+  height: 450px;
+  background-color: #faf3ff;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 3px 3px 5px -1px rgba(0, 0, 0, 0.145);
+  font-size: 0.9em;
+  display: none;
+  z-index: 99;
+}
+
+header.shrink .category > ul {
+  top: 3.3em;
+}
+
+.category > ul > li {
+  height: 31px;
+  text-indent: 0.8em;
+}
+
+.category > ul > li > a {
+  display: block;
+  height: 100%;
+  line-height: 2.5em;
+  color: black;
+}
+
+.category > ul > li > ul {
+  position: absolute;
+  left: 100%;
+  height: 450px;
+  top: 0;
+  width: 125%;
+  border-bottom-right-radius: 10px;
+  background-color: #faf3ff;
+  box-shadow: 3px 3px 5px -1px rgba(0, 0, 0, 0.145);
+  display: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.066);
+}
+
+.category > ul > li > ul > li {
+  height: 31px;
+  line-height: 2.5em;
+}
+
+.category > ul > li > ul > li > a {
+  display: block;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+  margin-left: 15px;
+  min-width: 230px;
+}
+
+.menu > li {
+  height: 100%;
+  line-height: 4em;
+}
+
+header.shrink .menu li a {
+  line-height: 4em;
+}
+
+.menu > li a:hover {
+  color: #a435f0;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.buttons {
+  width: 60%;
+  min-width: 140px;
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  border: 1px solid #969696;
+  border-radius: 4px;
+  width: 37%;
+  min-width: 65px;
+  height: 30px;
+  margin-left: 5px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+}
+
+.sign_in {
+  background-color: white;
+}
+
+.sign_up {
+  background-color: #dbb2f6;
+}
+
+.icons {
+  width: 30%;
+  min-width: 70px;
+  display: flex;
+}
+
+.icons div {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.icons i {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.icons .search svg {
+  width: 75%;
+  height: 100%;
+  margin: auto 0;
+}
+
+.icons .cart a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.icons .cart svg {
+  width: 70%;
+  height: 100%;
+  margin: auto 0;
+}
+
+main {
+  width: 100%;
+}
+
+/* 메인배너 */
+
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slideshow .slideshow_slides {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow .slideshow_slides .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow .slideshow_slides .slide a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.slideshow .slide:first-child {
+  background: linear-gradient(135deg, #bf9ef7, #a4bafa);
+}
+
+.slideshow .slide:nth-child(2) {
+  background-color: #7049d1;
+}
+
+.slideshow .slide:nth-child(3) {
+  background-color: #696969;
+}
+
+.slideshow .slide:nth-child(4) {
+  background-color: #5624d0;
+}
+
+.slide_inner {
+  width: 50%;
+  min-width: 500px;
+  max-width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide_inner .inner_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.slide_inner .inner_left span {
+  display: block;
+}
+
+.slide:nth-child(n + 2) .slide_inner span {
+  color: white;
+}
+
+.slide_inner .inner_left span:first-child {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.slide_inner .inner_left span:nth-child(2) {
+  font-size: 0.9em;
+  margin-top: 5px;
+  line-height: 1.5em;
+}
+.slide_inner .inner_right {
+  width: 50%;
+  position: relative;
+}
+
+.slide .slide_inner .inner_right img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slide:nth-child(1) .slide_inner .inner_right img {
+  width: 45%;
+  max-width: 240px;
+  min-width: 140px;
+}
+
+.slide:nth-child(2) .slide_inner .inner_right img {
+  width: 55%;
+  max-width: 250px;
+  min-width: 160px;
+}
+
+.slide:nth-child(3) .slide_inner .inner_right img {
+  width: 50%;
+  max-width: 250px;
+  min-width: 160px;
+}
+
+.indicator {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.indicator a:not(.active) {
+  width: 8px;
+  height: 8px;
+  margin: 0 5px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.indicator a.active {
+  background-color: white;
+  width: 8px;
+  height: 8px;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+
+/* 인기 카테고리 */
+
+.popular_category {
+  margin: 150px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular_top {
+  margin-bottom: 50px;
+  font-size: 1.2em;
+  font-weight: 800;
+  text-align: center;
+}
+
+.popular_bottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.popular_bottom_top,
+.popular_bottom_bottom {
+  display: flex;
+  width: 40%;
+}
+
+.popular_bottom_top li,
+.popular_bottom_bottom li {
+  width: 25%;
+}
+
+.popular_bottom_top li a,
+.popular_bottom_bottom li a {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular_bottom_top li a i,
+.popular_bottom_bottom li a i {
+  display: flex;
+  justify-content: center;
+}
+
+.popular_bottom_top li a svg,
+.popular_bottom_bottom li a svg {
+  width: 60%;
+  min-width: 40px;
+  max-width: 50px;
+}
+
+.popular_bottom_top li a span,
+.popular_bottom_bottom li a span {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.popular_bottom li::after {
+  display: block;
+  content: '';
+  width: 70%;
+  min-width: 60px;
+  height: 3px;
+  background-color: #a435f0;
+  transition: all 0.1s linear;
+  transform: scaleX(0);
+  margin: 7px auto 0;
+  border-radius: 5px;
+}
+
+.popular_bottom li:hover::after {
+  transform: scaleX(1);
+}
+
+/* 롤링배너 */
+.flow_banner {
+  overflow: hidden;
+  display: flex;
+  margin: 150px auto 200px;
+  background: #fbf5ff;
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.flow_banner span {
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.3em;
+  white-space: nowrap;
+}
+
+.flow_banner .list {
+  display: flex;
+}
+
+.flow_banner .list li {
+  position: relative;
+  width: 250px;
+}
+
+.flow_banner .list li img {
+  position: absolute;
+  transform: translateY(80%);
+  width: 80%;
+}
+
+.flow_banner .list li img:nth-child(1) {
+  opacity: 0;
+}
+
+@keyframes flowRolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* 유데미 특징 설명 */
+
+.pc_features_wrapper {
+  background-color: white;
+  height: 250px;
+  width: 80%;
+  max-width: 1200px;
+  min-width: 750px;
+  margin: 0 auto 200px;
+}
+
+.pc_features_wrapper .features_top,
+.pc_features_wrapper .features_bottom {
+  width: 100%;
+}
+
+.pc_features_wrapper .features_top {
+  height: 20%;
+  position: relative;
+}
+
+.pc_features_wrapper .features_top span {
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 25px;
+}
+
+.pc_features_wrapper .features_bottom {
+  display: flex;
+  height: 80%;
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.145);
+  border-radius: 10px;
+}
+
+.pc_features_wrapper .features_bottom div {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+  height: 80%;
+}
+
+.pc_features_wrapper .features_bottom div:not(:first-child) {
+  border-left: 2px solid rgb(209, 209, 209);
+}
+
+.pc_features_wrapper .features_bottom div span {
+  display: block;
+  line-height: 1.5em;
+}
+
+.pc_features_wrapper .features_bottom div span:first-child {
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+.pc_features_wrapper .features_bottom div img {
+  width: 15%;
+  max-width: 50px;
+  min-width: 40px;
+}
+
+.pc_features_wrapper .features_bottom div:first-child img {
+  margin-top: 10px;
+}
+
+.pc_features_wrapper .features_bottom div:not(:first-child) img {
+  margin-top: 20px;
+}
+
+/* 세일 강의*/
+
+.sale_title {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+}
+
+.sale_title span,
+.swiper-slide span:not(.price span) {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.sale_title span:first-child {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.sale_swiper {
+  margin-bottom: 100px;
+}
+
+.swiper {
+  width: 80%;
+  max-width: 1200px;
+}
+
+.swiper .swiper-wrapper .swiper-slide a span {
+  font-weight: 700;
+  margin-top: 7px;
+  line-height: 1.3;
+}
+
+.swiper .swiper-wrapper .swiper-slide > span {
+  font-size: 0.7em;
+  color: #969696;
+}
+
+.swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+
+.price del {
+  color: #b2b2b2;
+}
+
+.price span {
+  color: #a435f0;
+  font-weight: 600;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+/* TOP10 인기주제 수준별 강의 */
+
+.level_title {
+  max-width: 1200px;
+  width: 80%;
+  margin: 100px auto 20px;
+}
+
+.level_title span {
+  display: block;
+}
+
+.level_title span:first-child {
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-bottom: 7px;
+}
+
+.level_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+  height: 500px;
+  max-width: 1200px;
+  margin: 0 auto 150px;
+}
+
+.level_container .level_item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.level_container .level_item div {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.145);
+  border-radius: 10px;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 17px;
+  position: relative;
+}
+
+.level_container .level_item div a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.697);
+  border-radius: 10px;
+  opacity: 0;
+}
+
+.level_container .level_item div a:focus {
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.level_container .level_item div:hover a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
+.level_container .level_item div span {
+  color: white;
+  line-height: 1.5em;
+}
+
+.level_container .level_item div img {
+  max-width: 100px;
+  width: 50%;
+}
+
+.level_container .level_item > span {
+  display: block;
+  height: 30%;
+}
+
+/* 유데미 비즈니스 */
+
+.udemy_business,
+.udemy_teaching {
+  width: 95%;
+  height: 200px;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.udemy_business .business_right {
+  background: url(../img/business.jpg) no-repeat;
+  background-size: cover;
+  width: 60%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.udemy_business .business_left {
+  width: 40%;
+}
+
+.udemy_business .business_left span {
+  font-size: 1.6em;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.udemy_business .business_left .business_buttons {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.udemy_business .business_left button:first-child {
+  height: 40px;
+  width: 40%;
+  border: none;
+  background-color: #5624d0;
+  color: white;
+  border-radius: 4px;
+}
+
+.udemy_business .business_left button:nth-child(2) {
+  height: 40px;
+  width: 40%;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.udemy_teaching {
+  margin: 100px auto 200px;
+}
+
+.udemy_teaching .teaching_left {
+  background: url(../img/teaching.jpg) no-repeat;
+  background-size: cover;
+  width: 60%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.udemy_teaching .teaching_right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.udemy_teaching .teaching_right span {
+  display: block;
+}
+
+.udemy_teaching .teaching_right span:first-child {
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.udemy_teaching .teaching_right span:nth-child(2) {
+  line-height: 1.3em;
+}
+
+.udemy_teaching .teaching_right button {
+  height: 40px;
+  width: 40%;
+  border: none;
+  background-color: #5624d0;
+  color: white;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/* 푸터 */
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #696969;
+}
+
+footer .footer_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+footer .footer_wrapper div {
+  width: 16%;
+  height: 50%;
+  padding: 30px 0 0 30px;
+}
+
+footer .footer_wrapper span {
+  display: block;
+  position: absolute;
+  bottom: 50px;
+  right: 40px;
+}
+
+footer .footer_wrapper div a {
+  display: block;
+  line-height: 2em;
+}
+
+footer .footer_wrapper svg {
+  width: 40%;
+  min-width: 80px;
+}
+
+/* 채팅 버튼 */
+
+.chat_button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  border: none;
+  border-radius: 50%;
+  background-color: #a435f0;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.374);
+}
+
+.chat_button .chat_button_div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat_button .chat_button_div svg {
+  width: 70%;
+}
+
+.a11y-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+/* 태블릿 */
+@media (max-width: 1280px) {
+  .countdown {
+    height: 2em;
+    line-height: 2em;
+  }
+
+  header.shrink {
+    margin-top: -2.1em;
+  }
+
+  /* 배너 슬라이드 */
+
+  .slideshow {
+    width: 100%;
+    height: 200px;
+  }
+
+  .slide_inner .inner_left span:first-child {
+    font-size: 1.7em;
+  }
+
+  .slide_inner .inner_left span:nth-child(2) {
+    font-size: 0.8em;
+  }
+
+  /* 롤링배너 */
+
+  .flow_banner {
+    height: 300px;
+    margin: 150px auto 150px;
+  }
+
+  .flow_banner span {
+    font-size: 1.1em;
+  }
+
+  .flow_banner .list li {
+    width: 200px;
+  }
+
+  .flow_banner .list li img {
+    width: 80%;
+    transform: translateY(70%);
+  }
+
+  /* 유데미 특징 설명 */
+
+  .pc_features_wrapper {
+    width: 96%;
+  }
+
+  .pc_features_wrapper .features_top span {
+    font-size: 1.1em;
+  }
+
+  .pc_features_wrapper .features_bottom div {
+    padding-left: 30px;
+  }
+
+  .pc_features_wrapper .features_bottom div span:first-child {
+    font-size: 1.1em;
+  }
+
+  .pc_features_wrapper .features_bottom div span:nth-child(2) {
+    font-size: 0.9em;
+  }
+}
+
+/* 로고 슬라이드 */
+
+/* 모바일  */
+@media (max-width: 768px) {
+  .PC_container {
+    display: none;
+  }
+
+  .footer_wrapper {
+    display: none !important;
+  }
+
+  .mobile_container {
+    display: block;
+  }
+
+  /* 카운트다운 배너 */
+
+  .countdown {
+    height: 2em;
+    line-height: 2em;
+    font-size: 14px;
+  }
+
+  /* 헤더 */
+
+  .mobile_header {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 3em;
+  }
+
+  .mobile_header > div {
+    width: calc(100% / 3);
+  }
+
+  .mobile_header button {
+    border: none;
+    background-color: transparent;
+    width: 30%;
+    height: 100%;
+    position: relative;
+  }
+
+  .mobile_left button i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2px;
+  }
+
+  .mobile_left button i svg {
+    width: 32px;
+  }
+
+  .mobile_middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header.shrink {
+    height: 2.5em;
+    margin-top: -1.8em;
+  }
+
+  header.shrink .mobile_header {
+    height: 2.5em;
+  }
+
+  header.shrink h1 a {
+    transform: translateY(-5%);
+  }
+
+  .mobile_right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .mobile_right button i {
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc(100% - 2px);
+  }
+
+  .mobile_right button i svg {
+    width: 70%;
+    min-width: 32px;
+    max-width: 40px;
+  }
+
+  /* 사이드바 */
+
+  .dimmed {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.757);
+    position: absolute;
+    top: 0;
+    z-index: 9998;
+    display: none;
+  }
+
+  .dimmed.active {
+    display: block;
+  }
+
+  aside {
+    width: 90vw;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: -100%;
+    transition: 0.3s ease-in-out;
+    font-size: 0.9em;
+  }
+
+  aside.active {
+    left: 0;
+  }
+
+  .aside_top {
+    width: 100%;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(195, 195, 195);
+  }
+
+  .aside_bottom {
+    width: 100%;
+    height: calc(100% - 57px);
+  }
+
+  .sidebar_buttons {
+    width: 50%;
+    min-width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+  }
+
+  .sidebar_buttons button {
+    width: 48%;
+    height: 55%;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+  }
+
+  .sidebar_buttons button:first-child {
+    background-color: white;
+  }
+
+  .sidebar_buttons button:nth-child(2) {
+    background-color: #dbb2f6;
+  }
+
+  .sidebar_xicon {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+  }
+
+  .sidebar_xicon button {
+    height: 60%;
+    width: 100%;
+    background: none;
+    border: none;
+  }
+
+  .sidebar_xicon button i {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 30px;
+    height: 90%;
+    min-width: 20px;
+  }
+
+  .aside_bottom > div {
+    height: 100%;
+    width: 50%;
+    border-right: 1px solid rgb(195, 195, 195);
+    padding-top: 20px;
+  }
+
+  .aside_bottom > div > ul {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .aside_bottom > div > ul > li {
+    text-indent: 1em;
+    line-height: 2em;
+  }
+
+  .aside_bottom > div > ul > li span {
+    display: block;
+  }
+
+  .aside_bottom > div > ul > li > ul {
+    display: none;
+    position: absolute;
+    right: -100%;
+    top: -2px;
+    width: 100%;
+  }
+
+  .aside_bottom > div > ul > li > ul.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .aside_bottom > div > ul > li > ul.active > li > a {
+    display: block;
+    width: 100%;
+  }
+
+  /* 메인배너 */
+
+  .slide_inner {
+    width: 80%;
+    min-width: 350px;
+  }
+
+  .slide_inner .inner_left span:first-child {
+    font-size: 1.4em;
+  }
+
+  .slide_inner .inner_left span:nth-child(2) {
+    font-size: 0.7em;
+  }
+
+  /* 인기 카테고리 */
+
+  .popular_top {
+    margin-bottom: 30px;
+  }
+
+  .popular_bottom {
+    display: block;
+  }
+
+  .popular_bottom_top,
+  .popular_bottom_bottom {
+    width: 50%;
+    min-width: 300px;
+    margin: 0 auto 14px;
+  }
+
+  /* 롤링배너 */
+
+  .flow_banner span {
+    width: 80%;
+    top: 50px;
+  }
+
+  /* 유데미 특징 설명 */
+
+  .mobile_features_wrapper {
+    width: 100%;
+    height: 60vh;
+    min-height: 600px;
+    margin: 0 auto 100px;
+  }
+
+  .mobile_features_wrapper .features_top {
+    height: 10%;
+  }
+
+  .mobile_features_wrapper .features_top span {
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+  }
+
+  .mobile_features_wrapper .features_bottom {
+    height: 90%;
+  }
+
+  .mobile_features_wrapper .features_bottom > div {
+    height: 50%;
+    width: 100%;
+  }
+
+  .mobile_features_wrapper .features_bottom .two_contianer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .two_contianer > div {
+    width: 230px;
+    height: 230px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.145);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .two_contianer > div span:first-child,
+  .one_container > div span:first-child {
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 1.1em;
+  }
+
+  .two_contianer > div span:nth-child(2),
+  .one_container > div span:nth-child(2) {
+    margin-top: 5px;
+    font-size: 0.9em;
+  }
+
+  .two_contianer > div span,
+  .one_container > div span {
+    display: block;
+    text-align: center;
+    margin: 0 40px 0 40px;
+    width: 100%;
+  }
+
+  .two_contianer > div img,
+  .one_container > div img {
+    width: 25%;
+    margin-top: 15px;
+  }
+
+  .one_container > div {
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.145);
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* 세일 강의 & 무료 강의 */
+
+  .sale_swiper_slide > a > span,
+  .sale_swiper_slide > .price del,
+  .sale_swiper_slide > .price span {
+    font-size: 0.8em;
+  }
+
+  .sale_swiper_slide > span {
+    font-size: 0.3em;
+  }
+
+  /* TOP10 인기주제 수준별 강의 */
+
+  .level_container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .level_container .level_item div img {
+    width: 35%;
+  }
+
+  .level_container .level_item div:hover a span {
+    font-size: 0.6em;
+  }
+
+  .level_container .level_item > span {
+    font-size: 0.8em;
+  }
+
+  /* 유데미 비즈니스 & 강사등록 */
+
+  .business_swiper {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 100px;
+    background-color: #dbdbdb;
+  }
+
+  .business_slide:first-child div {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .business_slide div span {
+    text-align: center;
+  }
+
+  .business_slide div span:first-child {
+    font-weight: 800;
+    font-size: 1.1em;
+  }
+
+  .business_slide div span:nth-child(2) {
+    font-size: 0.9em;
+  }
+
+  .business_slide:first-child div i {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+  }
+
+  .business_slide div i svg {
+    width: 35%;
+    max-width: 180px;
+  }
+
+  .business_slide div button {
+    width: 25%;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .business_slide div button:first-child {
+    border: none;
+    background-color: #5624d0;
+    color: white;
+  }
+
+  .business_slide div button:nth-child(2) {
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  .mobile_business_buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .business_swiper .business_slide:first-child div button:nth-child(2) {
+    margin-left: 10px;
+    color: black;
+  }
+
+  .business_slide:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .business_slide:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* 푸터 */
+
+  footer {
+    height: 350px;
+  }
+
+  .mobile_footer_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .mobile_footer_container div {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile_footer_container div:nth-child(3) {
+    padding-top: 20px;
+  }
+
+  .mobile_footer_container div a {
+    margin: 20px 0 0 20px;
+    font-size: 0.8em;
+  }
+
+  .mobile_footer_container div i {
+    display: block;
+  }
+
+  .mobile_footer_container div i svg {
+    width: 50%;
+  }
+
+  .mobile_footer_container div span {
+    font-size: 0.7em;
+  }
+}
+
+/* 유데미 특징 > 정원 유지용 */
+@media (max-width: 490px) {
+  .one_container > div,
+  .two_contianer > div {
+    width: 170px;
+    height: 170px;
+  }
+
+  .two_contianer > div span:first-child,
+  .one_container > div span:first-child {
+    font-size: 0.9em;
+  }
+
+  .two_contianer > div span:nth-child(2),
+  .one_container > div span:nth-child(2) {
+    font-size: 0.7em;
+  }
+
+  .mobile_features_wrapper {
+    min-height: 400px;
+  }
+}

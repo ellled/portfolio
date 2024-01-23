@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>닥터마틴</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/index_final.css" />
+    <script src="js/index_final.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/3e0bd7462c.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;500;700&family=Noto+Serif+KR:wght@200;300;600&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="icon" type="image/svg+xml" href="img/dmlogo_small.png" />
+  </head>
+  <body>
+    <div class="all_wrapper">
+      <header>
+        <!-- 모바일 내브 시작 -->
+        <nav class="mobile_nav">
+          <div class="navbar_overlay"></div>
+          <div class="navbar_menu">
+            <ul>
+              <li>
+                <img
+                  class="ham_logo"
+                  src="img/DM_Logo.svg"
+                  alt="닥터마틴 로고"
+                />
+                <div class="navbar_burger_back">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-x-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+                    />
+                  </svg>
+                </div>
+              </li>
+              <li>
+                <input type="text" id="mobile_search" />
+                <!-- <div class="search_wrapper"> -->
+                <img class="search" src="img/search.png" alt="" />
+                <!-- </div> -->
+              </li>
+            </ul>
+
+            <!-- 모바일 아코디언 시작 -->
+            <div class="container2">
+              <ul class="accordion-menu">
+                <li class="link">
+                  <div class="dropdown">
+                    BEST
+                    <i
+                      class="fa-sharp fa-solid fa-chevron-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <ul class="submenu_items">
+                    <li><a href="#">세일</a></li>
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">부츠</a></li>
+                    <li><a href="#">슈즈</a></li>
+                    <li><a href="#">샌들</a></li>
+                    <li><a href="#">로퍼</a></li>
+                  </ul>
+                </li>
+                <li class="link">
+                  <div class="dropdown">
+                    NEW
+                    <i
+                      class="fa-sharp fa-solid fa-chevron-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <ul class="submenu_items">
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">부츠</a></li>
+                    <li><a href="#">슈즈</a></li>
+                    <li><a href="#">샌들</a></li>
+                    <li><a href="#">로퍼</a></li>
+                  </ul>
+                </li>
+                <li class="link">
+                  <div class="dropdown">
+                    ALL
+                    <i
+                      class="fa-sharp fa-solid fa-chevron-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <ul class="submenu_items">
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">전체보기</a></li>
+                  </ul>
+                </li>
+                <li><hr /></li>
+                <li class="link">
+                  <div class="dropdown">
+                    WOMEN
+                    <i
+                      class="fa-sharp fa-solid fa-chevron-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <ul class="submenu_items">
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">부츠</a></li>
+                    <li><a href="#">슈즈</a></li>
+                    <li><a href="#">샌들</a></li>
+                    <li><a href="#">로퍼</a></li>
+                  </ul>
+                </li>
+                <li class="link">
+                  <div class="dropdown">
+                    MEN
+                    <i
+                      class="fa-sharp fa-solid fa-chevron-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <ul class="submenu_items">
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">부츠</a></li>
+                    <li><a href="#">슈즈</a></li>
+                    <li><a href="#">샌들</a></li>
+                    <li><a href="#">로퍼</a></li>
+                  </ul>
+                </li>
+                <li class="link">
+                  <div class="dropdown">
+                    KIDS
+                    <i
+                      class="fa-sharp fa-solid fa-chevron-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <ul class="submenu_items">
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">부츠</a></li>
+                    <li><a href="#">슈즈</a></li>
+                    <li><a href="#">샌들</a></li>
+                    <li><a href="#">로퍼</a></li>
+                  </ul>
+                </li>
+                <li class="link">
+                  <div class="dropdown">
+                    액세서리
+                    <i
+                      class="fa-sharp fa-solid fa-chevron-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <ul class="submenu_items">
+                    <li><a href="#">가방</a></li>
+                    <li><a href="#">양말</a></li>
+                    <li><a href="#">슈레이스</a></li>
+                    <li><a href="#">기타</a></li>
+                  </ul>
+                </li>
+                <li><hr /></li>
+                <li class="link">
+                  <div class="dropdown">
+                    DM GUIDE
+                    <i
+                      class="fa-sharp fa-solid fa-chevron-right"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <ul class="submenu_items">
+                    <li><a href="#">CARE GUIDE</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                  </ul>
+                </li>
+                <li class="link">
+                  <div class="dropdown">
+                    <a href="#">COLLABORATIONS</a>
+                  </div>
+                </li>
+                <li><hr /></li>
+                <li class="link">
+                  <div class="dropdown">
+                    <a class="thin" href="#">로그인하기</a>
+                  </div>
+                </li>
+                <li class="link">
+                  <div class="dropdown">
+                    <a class="thin" href="#">도움말</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- 모바일 아코디언 + 내브 끝 -->
+
+        <!-- 모바일 헤더 시작 -->
+        <ul class="header_mobile">
+          <li class="ham_wrapper">
+            <img class="ham navbar_burger" src="img/ham.png" alt="카테고리" />
+          </li>
+
+          <li class="mobile_logo_wrapper">
+            <h1>
+              <a href="#"
+                ><img class="logo" src="img/DM_Logo.svg" alt="닥터마틴 로고" />
+              </a>
+            </h1>
+          </li>
+
+          <li class="icons">
+            <div>
+              <a href="#"
+                ><img class="person" src="img/person2.png" alt="마이페이지"
+              /></a>
+
+              <a href="#"
+                ><img class="bag" src="img/bag.png" alt="장바구니"
+              /></a>
+            </div>
+          </li>
+        </ul>
+        <!-- 모바일 헤더 끝 -->
+        <!-- pc 헤더 시작 -->
+        <ul class="header_tablet">
+          <li class="logo_tablet_wrapper">
+            <h1>
+              <a href="#"
+                ><img class="logo" src="img/DM_Logo.svg" alt="닥터마틴 로고" />
+              </a>
+            </h1>
+          </li>
+          <li class="category_wrapper">
+            <ul class="category">
+              <li class="header_title short">
+                BEST
+                <div class="none_maker">
+                  <ul class="pc_header_dep1 short">
+                    <li><a href="#">세일</a></li>
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">부츠</a></li>
+                    <li><a href="#">슈즈</a></li>
+                    <li><a href="#">샌들</a></li>
+                    <li><a href="#">로퍼</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header_title short">
+                NEW
+                <div class="none_maker">
+                  <ul class="pc_header_dep1 short">
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">부츠</a></li>
+                    <li><a href="#">슈즈</a></li>
+                    <li><a href="#">샌들</a></li>
+                    <li><a href="#">로퍼</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="short header_title"><a href="#"> ALL</a></li>
+              <li class="header_title long">
+                WOMEN
+                <div class="none_maker">
+                  <ul class="pc_header_dep1 long">
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">부츠</a></li>
+                    <li><a href="#">슈즈</a></li>
+                    <li><a href="#">샌들</a></li>
+                    <li><a href="#">로퍼</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header_title short">
+                MEN
+                <div class="none_maker">
+                  <ul class="pc_header_dep1 short">
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">부츠</a></li>
+                    <li><a href="#">슈즈</a></li>
+                    <li><a href="#">샌들</a></li>
+                    <li><a href="#">로퍼</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header_title short">
+                KIDS
+                <div class="none_maker">
+                  <ul class="pc_header_dep1 short">
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">부츠</a></li>
+                    <li><a href="#">슈즈</a></li>
+                    <li><a href="#">샌들</a></li>
+                    <li><a href="#">로퍼</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header_title long">
+                액세서리
+                <div class="none_maker">
+                  <ul class="pc_header_dep1 long">
+                    <li><a href="#">가방</a></li>
+                    <li><a href="#">양말</a></li>
+                    <li><a href="#">슈레이스</a></li>
+                    <li><a href="#">기타</a></li>
+                  </ul>
+                </div>
+              </li>
+              <div class="header_bundle">
+                <div>|</div>
+                <div class="header_title">
+                  DM GUIDE
+                  <div class="none_maker">
+                    <div class="pc_header_dep1 long">
+                      <li><a href="#">CARE GUIDE</a></li>
+                      <li><a href="#">ABOUT</a></li>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <a class="header_title_collb" href="#">COLLABORATIONS</a>
+                </div>
+              </div>
+            </ul>
+          </li>
+
+          <li class="icons_tablet_wrapper">
+            <div class="icons_tablet">
+              <a href="#"
+                ><img class="person" src="img/person2.png" alt="마이페이지"
+              /></a>
+              <a href="#"
+                ><img class="bag" src="img/shopping-bag.png" alt="장바구니"
+              /></a>
+              <a href="#"
+                ><img class="search" src="img/search.png" alt="검색"
+              /></a>
+            </div>
+          </li>
+        </ul>
+      </header>
+      <a href="#"><img class="main_img" src="img/main.jpg" alt="메인배너" /></a>
+      <div class="title">ORIGINAL</div>
+      <div class="original_items">
+        <a href="#"
+          ><img src="img/3hole.jpg" alt="닥터마틴 3홀 슈즈" />3홀 슈즈</a
+        >
+        <a href="#"
+          ><img src="img/8hole.jpg" alt="닥터마틴 8홀 슈즈" />8홀 슈즈</a
+        >
+        <a href="#"><img src="img/chelsea.jpg" alt="닥터마틴 첼시" />첼시</a>
+        <a href="#"><img src="img/jaden.jpg" alt="닥터마틴 제이든" />제이든</a>
+        <a href="#"
+          ><img src="img/longboots.png" alt="닥터마틴 롱부츠" />롱부츠</a
+        >
+        <button class="btn_tablet">VIEW ALL</button>
+      </div>
+      <button class="btn_mobile">VIEW ALL</button>
+      <video
+        class="video"
+        poster="img/thumbnail.jpg"
+        src="img/video.mp4"
+        autoplay
+        muted
+        playsinline
+        controls
+      ></video>
+      <!-- 베스트셀러 모바일 시작 -->
+
+      <div class="bs_wrapper_mobile">
+        <div class="title">BEST SELLERS</div>
+        <div class="bs_contents_mobile">
+          <ul>
+            <li>
+              <span
+                ><a href="#"
+                  ><img src="img/odric.png" alt="닥터마틴 오드릭 첼시 톨" /></a
+              ></span>
+              <span
+                ><a href="#"> 오드릭 첼시 톨 <br />₩320,000</a></span
+              >
+            </li>
+            <li>
+              <span
+                ><a href="#"
+                  ><img
+                    src="img/1461smooth.jpg"
+                    alt="닥터마틴 1461 스무스" /></a
+              ></span>
+              <span
+                ><a href="#">1461 스무스 <br />₩280,000</a></span
+              >
+            </li>
+            <li>
+              <span
+                ><a href="#"
+                  ><img src="img/2976max.jpg" alt="닥터마틴 2976 맥스" /></a
+              ></span>
+              <span
+                ><a href="#">2976 맥스 <br />₩300,000</a></span
+              >
+            </li>
+            <li>
+              <span
+                ><a href="#"
+                  ><img src="img/jaden3.jpg" alt="닥터마틴 제이든3" /></a
+              ></span>
+              <span
+                ><a href="#">제이든 ||| <br />₩330,000</a></span
+              >
+            </li>
+            <li>
+              <span
+                ><a href="#"
+                  ><img src="img/1461.png" alt="닥터마틴 1461 벡스" /></a
+              ></span>
+              <span
+                ><a href="#">1461 벡스<br />₩270,000</a></span
+              >
+            </li>
+            <li>
+              <span
+                ><a href="#"
+                  ><img src="img/11inch.png" alt="닥터마틴 11인치 사첼" /></a
+              ></span>
+              <span
+                ><a href="#">11인치 사첼<br />₩320,000</a></span
+              >
+            </li>
+            <li>
+              <span
+                ><a href="#"
+                  ><img src="img/2967mono.png" alt="닥터마틴 2976 모노" /></a
+              ></span>
+              <span
+                ><a href="#">2976 모노 <br />₩330,000</a></span
+              >
+            </li>
+            <li>
+              <span
+                ><a href="#"
+                  ><img
+                    src="img/jaden high.png"
+                    alt="닥터마틴 제이든 하이" /></a
+              ></span>
+              <span
+                ><a href="#">제이든 하이<br />₩340,000</a></span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 베스트셀러 태블릿 시작 -->
+      <div class="bs_tablet title">BEST SELLERS</div>
+      <div class="slide-container swiper first">
+        <div class="slide-content first">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="img/odric.png"
+                    alt="닥터마틴 오드릭 첼시 톨"
+                    class="card-img"
+                  />
+                  <div class="text">
+                    <a href="#"> 오드릭 첼시 톨 <br />₩320,000</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="img/1461smooth.jpg"
+                    alt="닥터마틴 1461 스무스"
+                    class="card-img"
+                  />
+                  <div class="text">
+                    <a href="#">1461 스무스 <br />₩280,000</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="img/2976max.jpg"
+                    alt="닥터마틴 2976 맥스"
+                    class="card-img"
+                  />
+                  <div class="text">
+                    <a href="#">2976 맥스 <br />₩300,000</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="img/jaden3.jpg"
+                    alt="닥터마틴 제이든 |||"
+                    class="card-img"
+                  />
+                  <div class="text">
+                    <a href="#">제이든 ||| <br />₩330,000</a>
+                  </div>
+
+                  <!-- <img src="img/odric.png" alt="" class="card-img"> -->
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="img/1461.png"
+                    alt="닥터마틴 1461 벡스"
+                    class="card-img"
+                  />
+                  <div class="text">
+                    <a href="#">1461 벡스<br />₩270,000</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="img/11inch.png"
+                    alt="닥터마틴 11인치 사첼"
+                    class="card-img"
+                  />
+                  <div class="text">
+                    <a href="#">11인치 사첼<br />₩320,000</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="img/2967mono.png"
+                    alt="닥터마틴 2976 모노"
+                    class="card-img"
+                  />
+                  <div class="text">
+                    <a href="#">2976 모노 <br />₩330,000</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="img/1460 napa.png"
+                    alt="닥터마틴 1460 나파"
+                    class="card-img"
+                  />
+                  <div class="text">
+                    <a href="#">1460 나파<br />₩310,000</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+
+                <div class="card-image">
+                  <img
+                    src="img/jaden high.png"
+                    alt="닥터마틴 제이든 하이"
+                    class="card-img"
+                  />
+                  <div class="text">
+                    <a href="#">제이든 하이<br />₩340,000</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="color: white" class="swiper-button-next first"></div>
+        <div style="color: white" class="swiper-button-prev first"></div>
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+      <!-- 베스트셀러 pc 시작 -->
+      <div class="title third">BEST SELLERS</div>
+      <div id="bs_pc" class="swiper-container swiper third">
+        <div class="swiper-wrapper third">
+          <div class="swiper-slide third">
+            <div class="image-content third">
+              <img
+                src="img/odric.png"
+                alt="닥터마틴 오드릭 첼시 톨"
+                class="card-img third"
+              />
+              <div class="text third">
+                <a href="#"> 오드릭 첼시 톨 <br />₩320,000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide third">
+            <div class="image-content third">
+              <img
+                src="img/1461smooth.jpg"
+                alt="닥터마틴 1461 스무스"
+                class="card-img third"
+              />
+              <div class="text third">
+                <a href="#">1461 스무스 <br />₩280,000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide third">
+            <div class="image-content third">
+              <img
+                src="img/2976max.jpg"
+                alt="닥터마틴 2976 맥스"
+                class="card-img third"
+              />
+              <div class="text third">
+                <a href="#">2976 맥스 <br />₩300,000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide third">
+            <div class="image-content third">
+              <img
+                src="img/jaden3.jpg"
+                alt="닥터마틴 제이든 |||"
+                class="card-img third"
+              />
+              <div class="text third">
+                <a href="#">제이든 ||| <br />₩330,000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide third">
+            <div class="image-content third">
+              <img
+                src="img/1461.png"
+                alt="닥터마틴 1461 벡스"
+                class="card-img third"
+              />
+              <div class="text third">
+                <a href="#">1461 벡스<br />₩270,000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide third">
+            <div class="image-content third">
+              <img
+                src="img/11inch.png"
+                alt="닥터마틴 11인치 사첼"
+                class="card-img third"
+              />
+              <div class="text third">
+                <a href="#">11인치 사첼<br />₩320,000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide third">
+            <div class="image-content third">
+              <img
+                src="img/2967mono.png"
+                alt="닥터마틴 2976 모노"
+                class="card-img third"
+              />
+              <div class="text third">
+                <a href="#">2976 모노 <br />₩330,000</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide third">
+            <div class="image-content third">
+              <img
+                src="img/jaden high.png"
+                alt="닥터마틴 제이든 하이"
+                class="card-img third"
+              />
+              <div class="text third">
+                <a href="#">제이든 하이<br />₩340,000</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="color: white" class="swiper-button-next third"></div>
+        <div style="color: white" class="swiper-button-prev third"></div>
+      </div>
+      <!-- 신제품 모바일 시작 -->
+      <div class="swiper-container zero">
+        <div class="na_title">NEW ARRIVAL</div>
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <a href="#"
+              ><img src="img/transparent1.png" alt="닥터마틴 오드릭 첼시 톨"
+            /></a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#"
+              ><img src="img/transparent2.png" alt="닥터마틴 레더 하트쉐입 백"
+            /></a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#"
+              ><img src="img/transparent3.png" alt="닥터마틴 펜톤 포 서울"
+            /></a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#"
+              ><img src="img/transparent4.png" alt="닥터마틴 가야 첼시"
+            /></a>
+          </li>
+          <li class="swiper-slide short">
+            <a href="#"
+              ><img src="img/transparent5.png" alt="닥터마틴 아이샴"
+            /></a>
+          </li>
+          <li class="swiper-slide short">
+            <a href="#"
+              ><img src="img/transparent6.png" alt="닥터마틴 1461"
+            /></a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#"
+              ><img
+                src="img/transparent7.png"
+                alt="닥터마틴 제이든 하이 LTT 맥스"
+            /></a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#"
+              ><img src="img/transparent8.png" alt="닥터마틴 제이든"
+            /></a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#"
+              ><img
+                src="img/transparent9.png"
+                alt="닥터마틴 아드리안 스내플 쿼드"
+            /></a>
+          </li>
+        </ul>
+        <img class="road" src="img/road final.png" alt="" />
+      </div>
+      <!-- 신제품 태블릿 시작 -->
+      <div class="na_tablet swiper plus">
+        <div class="na_title">NEW ARRIVAL</div>
+        <p class="na_text">
+          닥터마틴은 여러분들께 자유를 선물하고 싶습니다. <br />
+          새로워진 DM의 슈즈와 여러분의 자유를 찾는 여정을 함께해 보세요.
+        </p>
+        <div class="slide-content plus">
+          <div class="card-wrapper swiper-wrapper plus">
+            <div class="card swiper-slide plus">
+              <div class="image-content plus">
+                <span class="overlay"></span>
+                <div class="card-image plus">
+                  <a href="#"
+                    ><img
+                      src="img/transparent1.png"
+                      alt="닥터마틴 오드릭 첼시 톨"
+                      class="card-img plus"
+                  /></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card swiper-slide plus">
+              <div class="image-content plus">
+                <span class="overlay"></span>
+                <div class="card-image plus">
+                  <a href="#"
+                    ><img
+                      src="img/transparent2.png"
+                      alt="닥터마틴 레더 하트쉐입 백"
+                      class="card-img plus"
+                  /></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card swiper-slide plus">
+              <div class="image-content plus">
+                <span class="overlay"></span>
+                <div class="card-image plus">
+                  <a href="#"
+                    ><img
+                      src="img/transparent3.png"
+                      alt="닥터마틴 펜톤 포 서울"
+                      class="card-img plus"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide plus">
+              <div class="image-content plus">
+                <span class="overlay"></span>
+                <div class="card-image plus">
+                  <a href="#"
+                    ><img
+                      src="img/transparent4.png"
+                      alt="닥터마틴 가야 첼시"
+                      class="card-img plus"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide plus">
+              <div class="image-content plus">
+                <span class="overlay"></span>
+                <div class="card-image plus">
+                  <a href="#"
+                    ><img
+                      src="img/transparent5.png"
+                      alt="닥터마틴 아이샴"
+                      class="card-img plus"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide plus">
+              <div class="image-content plus">
+                <span class="overlay"></span>
+                <div class="card-image plus">
+                  <a href="#"
+                    ><img
+                      src="img/transparent6.png"
+                      alt="닥터마틴 1461"
+                      class="card-img plus"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide plus">
+              <div class="image-content plus">
+                <span class="overlay"></span>
+                <div class="card-image plus">
+                  <a href="#"
+                    ><img
+                      src="img/transparent7.png"
+                      alt="닥터마틴 제이든 하이 LTT 맥스"
+                      class="card-img plus"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide plus">
+              <div class="image-content plus">
+                <span class="overlay"></span>
+                <div class="card-image plus">
+                  <a href="#"
+                    ><img
+                      src="img/transparent8.png"
+                      alt="닥터마틴 제이든"
+                      class="card-img plus"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card swiper-slide plus">
+              <div class="image-content plus">
+                <span class="overlay"></span>
+                <div class="card-image plus">
+                  <a href="#"
+                    ><img
+                      src="img/transparent9.png"
+                      alt="닥터마틴 아드리안 스내플 쿼드"
+                      class="card-img plus"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="road"><img src="img/road final.png" alt="도로" /></div>
+        </div>
+        <img src="img/walk.png" alt="" class="swiper-button-next plus" />
+        <!-- <div style="color:white;" class="swiper-button-next plus"></div> -->
+        <!-- <div style="color:white;" class="swiper-button-prev plus"></div> -->
+        <!-- <div class="road"><img src="img/road final.png" alt=""></div> -->
+      </div>
+      <!-- 신제품 pc버전 시작 -->
+      <div class="na_pc_wrapper swiper fourth">
+        <div class="na_pc_items swiper-wrapper fourth">
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent1.png" class="na_shoes" alt=""
+            /></a>
+          </div>
+
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent2.png" class="na_shoes" alt=""
+            /></a>
+          </div>
+
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent3.png" class="na_shoes" alt=""
+            /></a>
+          </div>
+
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent4.png" class="na_shoes" alt=""
+            /></a>
+          </div>
+
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent5.png" class="na_shoes short" alt=""
+            /></a>
+          </div>
+
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent6.png" class="na_shoes short" alt=""
+            /></a>
+          </div>
+
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent1.png" class="na_shoes" alt=""
+            /></a>
+          </div>
+
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent2.png" class="na_shoes" alt=""
+            /></a>
+          </div>
+
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent3.png" class="na_shoes" alt=""
+            /></a>
+          </div>
+
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent4.png" class="na_shoes" alt=""
+            /></a>
+          </div>
+
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent5.png" class="na_shoes short" alt=""
+            /></a>
+          </div>
+
+          <div class="swiper-slide fourth">
+            <a href="#"
+              ><img src="img/transparent6.png" class="na_shoes short" alt=""
+            /></a>
+          </div>
+        </div>
+        <img class="road" src="img/road final.png" alt="도로" />
+        <div class="na_pc_text_wrapper box">
+          <ul class="na_text">
+            <li class="na_title">NEW ARRIVAL</li>
+            <li class="na_textcontent">
+              닥터마틴은 여러분들께 자유를 선물하고 싶습니다.<br />
+              새로워진 DM의 슈즈와 여러분의 자유를 찾는 여정을 함께해 보세요.
+            </li>
+            <li><button class="na_btn">VIEW ALL</button></li>
+          </ul>
+          <div>
+            <img
+              src="img/walk.png"
+              alt=""
+              class="walk swiper-button-next fourth"
+            />
+          </div>
+        </div>
+
+        <!-- <div style="color:white;" class="swiper-button-prev fourth"></div> -->
+      </div>
+
+      <!-- 신제품 pc버전 끝 -->
+      <div class="pc_none">
+        <div class="title">COLLABORATIONS</div>
+        <p class="tablet_collab_text mobile_none">
+          닥터마틴은 다양한 아티스트들과의 협업을 통해 <br />
+          끊임없이 변화를 추구하고 있습니다.
+        </p>
+        <a href="#"
+          ><img
+            class="collab_pic"
+            src="img/collab.png"
+            alt="닥터마틴 콜라보레이션 아티스트"
+        /></a>
+        <button class="btn_mobile">VIEW ALL</button>
+        <button class="btn_collab">VIEW ALL</button>
+      </div>
+      <!-- 콜라보 pc 시작 -->
+      <div class="collab_pc_wrapper">
+        <div class="collab_text">
+          <div class="collab_title">COLLABORATIONS</div>
+          <p>
+            닥터마틴은 다양한 아티스트들과의 협업을 통해 <br />
+            끊임없이 변화를 추구하고 있습니다.
+          </p>
+          <button class="btn_collab">VIEW ALL</button>
+        </div>
+        <div class="collab_pic">
+          <a href="#"
+            ><img
+              class="collab_pic"
+              src="img/collab.png"
+              alt="닥터마틴 콜라보레이션 아티스트"
+          /></a>
+        </div>
+      </div>
+      <!-- 콜라보 pc 끝 -->
+      <footer>
+        <!-- 모바일 푸터 시작 -->
+        <div class="footer_box_mobile">
+          <ul class="footer1">
+            <li>
+              <a href="#"
+                ><img
+                  class="footer_logo"
+                  src="img/DM_Logo.svg"
+                  alt="닥터마틴 로고"
+                />
+              </a>
+            </li>
+            <li>
+              All Images and Contents Copyright © <br />
+              2023 Dr.Matens-Airwair Korea. All Rights Reserved.
+            </li>
+          </ul>
+          <div class="footer2">
+            <ul>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">매장찾기</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="#">사이트맵</a></li>
+            </ul>
+            <ul>
+              <li class="em">닥터마틴에어웨어코리아(주)</li>
+              <li></li>
+              <li>서울특별시 강남구 도산대로 318 (SB타워) 14층 1,2호</li>
+              <li>사업자번호 : 105-81-94802 [사업자정보확인]</li>
+              <li>통신판매업신고 : 2013-서울마포-1212호</li>
+              <li>개인정보관리책임자 : 이태영</li>
+              <li>대표이사 : 챈카키데렉</li>
+              <li>이메일 : hello@drmartens.co.kr</li>
+              <li>팩스 : 050-4939-7651</li>
+              <li>호스팅 제공 : (주)가비아씨엔에스</li>
+              <li>
+                <ul class="footer_icons">
+                  <li>
+                    <a href="#"
+                      ><img src="img/twitter.png" alt="닥터마틴 트위터 계정"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/facebook.png" alt="닥터마틴 페이스북 계정"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="img/instagram.png"
+                        alt="닥터마틴 인스타그램 계정"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img src="img/youtube.png" alt="닥터마틴 유튜브 계정"
+                    /></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- pc 푸터 시작 -->
+        <div class="footer_box_pc">
+          <div class="footer_dep1_1">
+            <img
+              class="footer_logo"
+              src="img/DM_Logo.svg"
+              alt="닥터마틴 로고"
+            />
+          </div>
+          <div class="footer_dep1_2">
+            <div class="footer_dep2_1">
+              <ul class="footer_dep3_1">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">매장찾기</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">사이트맵</a></li>
+              </ul>
+              <ul class="footer_dep3_2">
+                <li>
+                  <a href="#"
+                    ><img src="img/twitter.png" alt="닥터마틴 트위터 계정"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="img/facebook.png" alt="닥터마틴 페이스북 계정"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="img/instagram.png"
+                      alt="닥터마틴 인스타그램 계정"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="img/youtube.png" alt="닥터마틴 유튜브 계정"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_dep2_2">
+              <ul>
+                <li class="em">닥터마틴에어웨어코리아(주)</li>
+                <li><br /></li>
+                <li>서울특별시 강남구 도산대로 318 (SB타워) 14층 1,2호</li>
+                <li>사업자번호 : 105-81-94802 [사업자정보확인]</li>
+                <li>통신판매업신고 : 2013-서울마포-1212호</li>
+                <li>개인정보관리책임자 : 이태영</li>
+                <li>대표이사 : 챈카키데렉</li>
+                <li>이메일 : hello@drmartens.co.kr</li>
+                <li>팩스 : 050-4939-7651</li>
+                <li>호스팅 제공 : (주)가비아씨엔에스</li>
+                <li>
+                  All Images and Contents Copyright © 2023 Dr.Matens-Airwair
+                  Korea. All Rights Reserved.
+                </li>
+              </ul>
+              <ul>
+                <li><a href="#">닥터마틴에 대하여</a></li>
+                <li><a href="#">브랜드 헤리티지</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">사이즈 가이드</a></li>
+                <li><a href="#">SUSTAINABILITY</a></li>
+                <li><a href="#">MODERN SLAVERY ACT</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">GENDER PAY GAP</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">챗봇 상담</a></li>
+                <li><a href="#">1:1 문의</a></li>
+                <li><a href="#">자주 묻는 질문</a></li>
+                <li><a href="#">공지사항</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- pc 푸터 끝 -->
+        <!-- 태블릿 푸터 시작 -->
+        <div class="footer_box_tablet">
+          <a href="#"
+            ><img
+              class="footer_logo"
+              src="img/DM_Logo.svg"
+              alt="닥터마틴 로고"
+            />
+          </a>
+          <div class="footer1">
+            <ul class="footer1_dep1">
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">매장찾기</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="#">사이트맵</a></li>
+            </ul>
+            <ul class="footer1_dep2">
+              <li>
+                <a href="#"
+                  ><img src="img/twitter.png" alt="닥터마틴 트위터 계정"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="img/facebook.png" alt="닥터마틴 페이스북 계정"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="img/instagram.png" alt="닥터마틴 인스타그램 계정"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="img/youtube.png" alt="닥터마틴 유튜브 계정"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer2">
+            <ul>
+              <li class="em">닥터마틴에어웨어코리아(주)</li>
+              <li><br /></li>
+              <li>서울특별시 강남구 도산대로 318 (SB타워) 14층 1,2호</li>
+              <li>사업자번호 : 105-81-94802 [사업자정보확인]</li>
+              <li>통신판매업신고 : 2013-서울마포-1212호</li>
+              <li>개인정보관리책임자 : 이태영</li>
+              <li>대표이사 : 챈카키데렉</li>
+              <li>이메일 : hello@drmartens.co.kr</li>
+              <li>팩스 : 050-4939-7651</li>
+              <li>호스팅 제공 : (주)가비아씨엔에스</li>
+              <li>
+                All Images and Contents Copyright © 2023 Dr.Matens-Airwair
+                Korea. All Rights Reserved.
+              </li>
+            </ul>
+            <ul>
+              <li><a href="#">닥터마틴에 대하여</a></li>
+              <li><a href="#">브랜드 헤리티지</a></li>
+              <li><a href="#">이벤트</a></li>
+              <li><a href="#">사이즈 가이드</a></li>
+              <li><a href="#">SUSTAINABILITY</a></li>
+              <li><a href="#">MODERN SLAVERY ACT</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">GENDER PAY GAP</a></li>
+              <li><a href="#">고객센터</a></li>
+              <li><a href="#">챗봇 상담</a></li>
+              <li><a href="#">1:1 문의</a></li>
+              <li><a href="#">자주 묻는 질문</a></li>
+              <li><a href="#">공지사항</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
